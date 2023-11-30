@@ -1,0 +1,10 @@
+server:
+  port: 8014
+
+spring:
+  application:
+    name: graphql-hello-springboot
+
+graphql:
+  playground:
+    enabled: true

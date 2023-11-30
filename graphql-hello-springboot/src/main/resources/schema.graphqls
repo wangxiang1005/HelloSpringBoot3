@@ -1,0 +1,44 @@
+enum GameType{
+    BoardGame
+    VideoGame
+}
+
+interface Game{
+    id: Int
+    name: String
+    publishedDate: String
+    price: Float
+    type: GameType
+}
+
+type BoardGame implements Game{
+    id: Int
+    name: String
+    publishedDate: String
+    price: Float
+    type: GameType
+    minAmountOfPlayers: Int
+    maxAmountOfPlayers: Int
+}
+
+type VideoGame implements Game{
+    id: Int
+    name: String
+    publishedDate: String
+    price: Float
+    type: GameType
+    isMultiPlayer: Boolean
+}
+
+input GetGamesRequest{
+    id: Int
+    publisherId: Int
+    name: String
+    publishedDate: String
+    price: Float
+    type: GameType
+}
+
+type Query{
+    getGames(request: GetGamesRequest): [Game!]
+}

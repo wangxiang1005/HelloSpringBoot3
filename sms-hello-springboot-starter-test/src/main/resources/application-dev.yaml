@@ -1,0 +1,11 @@
+server:
+  port: 8013
+
+spring:
+  application:
+    name: sms-hello-springboot-starter-test
+
+sms:
+  server:
+    send:
+      type: tx
