@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd01a0bd-4c51-4280-a9bb-117fdbf70a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/GraphQLConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/GraphQLHelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/controller/GraphQLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/BoardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/GameType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/GetGamesRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/VideoGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/resolver/GameQueryResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/resources/schema.graphqls" afterDir="false" />
-    </list>
+    <list default="true" id="bd01a0bd-4c51-4280-a9bb-117fdbf70a85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +63,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "a7178a212777a97e862c93118fe1522b",
+    "spring.configuration.checksum": "28fd5f4406eb6bd3279d5ef8c61b8ea8",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,6 +111,7 @@
       <workItem from="1701226941686" duration="1043000" />
       <workItem from="1701235905205" duration="710000" />
       <workItem from="1701306930055" duration="5730000" />
+      <workItem from="1701322568575" duration="667000" />
     </task>
     <servers />
   </component>
