@@ -17,6 +17,6 @@ public class StarterController {
         String fromPhone = "15522834580";
         String toPhone = "13820345839";
         String content = "Hello, 今晚王者峡谷六点, 五缺一, 收到请回复, over！";
-        return smsTemplate.send(fromPhone,toPhone,content);
+        return smsTemplate.send(fromPhone, toPhone, content);
     }
 }
