@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd01a0bd-4c51-4280-a9bb-117fdbf70a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/GraphQLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/GraphQLConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/resolver/GameQueryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/resolver/GameQueryResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms-hello-springboot-starter-test/src/main/java/com/paladin/sms/starter/test/controller/StarterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sms-hello-springboot-starter-test/src/main/java/com/paladin/sms/starter/test/controller/StarterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/VideoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/VideoGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,33 +84,6 @@
       <recent name="com.paladin.sms.starter.test.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GraphQLHelloApplication">
-    <configuration name="GraphQLHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="graphql-hello-springboot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paladin.graphql.hello.GraphQLHelloApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.paladin.graphql.hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmsTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="sms-hello-springboot-starter-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paladin.sms.starter.test.SmsTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.GraphQLHelloApplication" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,6 +97,9 @@
       <workItem from="1701306930055" duration="5730000" />
       <workItem from="1701322568575" duration="667000" />
       <workItem from="1704118367354" duration="1145000" />
+      <workItem from="1705320037801" duration="1315000" />
+      <workItem from="1705381066264" duration="378000" />
+      <workItem from="1705381846368" duration="2162000" />
     </task>
     <servers />
   </component>

@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(callSuper=false)
 public class VideoGame extends Game{
     private boolean isMultiPlayer;
+
     @Builder(builderMethodName = "videoGameBuilder")
     public VideoGame(Integer id, String name, Float price, String publishedDate, GameType type, boolean isMultiPlayer) {
         super(id, name, price, publishedDate, type);

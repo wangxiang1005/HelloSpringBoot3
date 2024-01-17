@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 public class BoardGame extends Game{
     private int minAmountOfPlayers;
     private int maxAmountOfPlayers;
+
     @Builder(builderMethodName = "boardGameBuilder")
     public BoardGame(Integer id, String name, Float price, String publishedDate, GameType type, Integer minAmountOfPlayers, Integer maxAmountOfPlayers) {
         super(id, name, price, publishedDate, type);
