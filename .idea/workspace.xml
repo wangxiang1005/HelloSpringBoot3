@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd01a0bd-4c51-4280-a9bb-117fdbf70a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/BoardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/VideoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-hello-springboot/src/main/java/com/paladin/graphql/hello/entity/VideoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/java/com/paladin/minio/MinioHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/java/com/paladin/minio/config/MinioConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/java/com/paladin/minio/config/MinioPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/java/com/paladin/minio/controller/MinioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/java/com/paladin/minio/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-hello-springboot/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,43 +54,67 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JakartaEE/IntelliJ-WorkSpace/Hello/HelloSpringBoot3/graphql-hello-springboot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;28fd5f4406eb6bd3279d5ef8c61b8ea8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/JakartaEE/IntelliJ-WorkSpace/Hello/HelloSpringBoot3/minio-hello-springboot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3572621",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "53a20ce7e2d5e5f7f4542aa921026125",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\minio-hello-springboot" />
+      <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\minio-hello-springboot\src\main\resources" />
       <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\graphql-hello-springboot" />
       <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\graphql-hello-springboot\src\main\resources" />
       <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\sms-hello-springboot-starter" />
-      <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\sms-hello-springboot-starter-test" />
-      <recent name="D:\JakartaEE\IntelliJ-WorkSpace\Hello\HelloSpringBoot3\sms-hello-springboot-starter-test\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.paladin.minio" />
       <recent name="com.paladin.graphql.hello" />
       <recent name="com.paladin.sms.starter.test.controller" />
     </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MinioHelloApplication">
+    <configuration name="GraphQLHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="graphql-hello-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paladin.graphql.hello.GraphQLHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinioHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="minio-hello-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paladin.minio.MinioHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sms-hello-springboot-starter-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paladin.sms.starter.test.SmsTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,6 +132,8 @@
       <workItem from="1705320037801" duration="1315000" />
       <workItem from="1705381066264" duration="378000" />
       <workItem from="1705381846368" duration="2162000" />
+      <workItem from="1711014042433" duration="3263000" />
+      <workItem from="1711956676385" duration="171000" />
     </task>
     <servers />
   </component>

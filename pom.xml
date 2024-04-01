@@ -26,6 +26,7 @@
         <module>sms-hello-springboot-starter</module>
         <module>sms-hello-springboot-starter-test</module>
         <module>graphql-hello-springboot</module>
+        <module>minio-hello-springboot</module>
     </modules>
 
     <dependencies>

@@ -1,0 +1,16 @@
+server:
+  port: 8015
+
+spring:
+  application:
+    name: minio-hello-springboot
+  servlet:
+    multipart:
+      max-file-size: 10MB   # 单个文件上传的最大上限
+      max-request-size: 100MB  # 整个请求体的最大上限
+
+minio:
+  url: http://192.168.5.182:9000
+  username: minioadmin
+  password: minioadmin
+  bucketName: minio-test

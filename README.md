@@ -8,3 +8,6 @@
 
 ## graphql-hello-springboot
 **完成**
+
+## minio-hello-springboot
+**完成**
